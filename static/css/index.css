@@ -1,0 +1,41 @@
+* {
+    font-family: Maven Pro;
+}
+.container {
+    margin-top: 20px;
+
+}
+.post {
+    padding: 15px 0;
+}
+.active span{
+    color: #d9534f
+}
+.timestamp {
+    font-style: italic;
+    opacity: 0.6;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+h3 {
+    transition: color 0.4s;
+}
+h3:hover {
+    color: #d9534f;
+    cursor: pointer;
+}
+textarea {
+    resize: none;
+    height: 140px;
+}
+.follow-btn {
+    transition: color 0.4s;
+    display: inline-block
+}
+.follow-btn:hover {
+    color: #d9534f;
+    cursor: pointer;
+
+}
